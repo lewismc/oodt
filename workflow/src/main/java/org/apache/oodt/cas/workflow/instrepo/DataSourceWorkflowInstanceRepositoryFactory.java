@@ -18,7 +18,7 @@
 
 package org.apache.oodt.cas.workflow.instrepo;
 
-import org.apache.commons.dbcp.PoolingDataSource;
+import org.apache.commons.dbcp2.PoolingDataSource;
 import org.apache.commons.pool.impl.GenericObjectPool;
 import org.apache.oodt.cas.metadata.util.PathUtils;
 import org.apache.oodt.cas.workflow.exceptions.WorkflowException;
